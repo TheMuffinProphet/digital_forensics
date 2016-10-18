@@ -1,0 +1,2 @@
+you start by finding the file start by piping an xxd of the image to grep for the header
+after that you change the hexadecimal into a real number. you then find the end by greping for the tail and turn this into decimal. you then use dd starting at the head and going a length based on the difference of the two numbers
