@@ -1,0 +1,12 @@
+What is a disk image?
+a virtual copy of a disk.
+What is the command to make a disk image?
+you can use dd to create the file before using cfdisk to format it as a disk image
+What is a disk partition?
+A localized portion of a hard drive
+How many disk partitions are in a disk image?
+that depends on how many times the hard drive the image is taken from was partitioned
+What difficulties does this pose if any?
+you may have difficulties finding specific portions since you cant look across everything at once
+What steps must you take to work with this?
+you use kpartx before mounting
